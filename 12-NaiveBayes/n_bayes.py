@@ -91,5 +91,5 @@ cm = confusion_matrix(y_test, y_pred)
 print("GNB")
 print(cm)
 
-
+ 
 
