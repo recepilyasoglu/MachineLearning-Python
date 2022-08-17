@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
 #2.veri onisleme
 #2.1.veri yukleme
 veriler = pd.read_csv('veriler.csv')
@@ -114,4 +115,6 @@ y_pred = rfc.predict(X_test)
 cm=confusion_matrix(y_test, y_pred)
 print("RFC")
 print(cm)
+
+
 
