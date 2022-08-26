@@ -22,6 +22,7 @@ ps = PorterStemmer()
 nltk.download("stopwords")
 from nltk.corpus import stopwords
 
+
 '''
 #"a-zA-Z" bu harfler aralığında olmayan harfleri al boşluk at, noktalama işaretlerini yani     
 yorum = re.sub("[^a-zA-Z]", " ", yorumlar["Review"][0]) 
